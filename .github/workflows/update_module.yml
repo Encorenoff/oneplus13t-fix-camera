@@ -35,7 +35,7 @@ jobs:
 
             - name: Initialize required files
               run: |
-                  [ -f ota_links.yml ] || echo "[]" > ota_links.yml
+                  [ -f .github/logs/ota_history.yml ] || echo "[]" > .github/logs/ota_history.yml
                   [ -f update.json ] || echo '{}' > update.json
                   [ -f changelog.md ] || touch changelog.md
 
@@ -169,7 +169,7 @@ jobs:
                   MOUNT_POINT="${{ env.MOUNT_POINT }}"
                   REPO_ODM_ROOT="module/odm"
                   
-                  HISTORY_FILE="ODM_FILE_HISTORY.md"
+                  HISTORY_FILE=".github/logs/odm_changes.md
                   CURRENT_REPORT="current_report.txt"
                   
                   mount_odm "${{ env.odm_img_path }}" "$MOUNT_POINT"
@@ -257,7 +257,7 @@ jobs:
               run: |
                   git config --global user.name 'github-actions[bot]'
                   git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-                  git add module/module.prop update.json changelog.md module/odm ODM_FILE_HISTORY.md
+                  git add module/module.prop update.json changelog.md module/odm .github/logs/odm_changes.md
                   git commit -m "feat: update ODM for ${{ env.RELEASE_TAG }}"
                   git push
 
@@ -320,9 +320,9 @@ jobs:
                     "oos_version": env(TAG_VER),
                     "cos_version": env(COS_VER),
                     "processed_at": env(TS)
-                  }]' ota_links.yml
+                  }]' .github/logs/ota_history.yml
                     
-                  git add ota_links.yml
+                  git add .github/logs/ota_history.yml
                   git commit -m "chore: update OTA history for ${{ env.RELEASE_TAG }} [skip ci]"
                   git push
                     
