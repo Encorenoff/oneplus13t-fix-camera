@@ -312,7 +312,6 @@ jobs:
                   TAG_VER: ${{ env.RELEASE_TAG }}
                   COS_VER: ${{ inputs.cos_version }}
               run: |
-                  source .github/scripts/extract_odm_lib.sh
                   echo "Updating OTA history..."
                   export TS=$(date -u --iso-8601=seconds)
                     
