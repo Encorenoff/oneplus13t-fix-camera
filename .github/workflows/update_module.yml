@@ -169,7 +169,7 @@ jobs:
                   MOUNT_POINT="${{ env.MOUNT_POINT }}"
                   REPO_ODM_ROOT="module/odm"
                   
-                  HISTORY_FILE=".github/logs/odm_changes.md
+                  HISTORY_FILE=".github/logs/odm_changes.md"
                   CURRENT_REPORT="current_report.txt"
                   
                   mount_odm "${{ env.odm_img_path }}" "$MOUNT_POINT"
