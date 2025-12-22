@@ -62,7 +62,7 @@
         "selectRemapOpenCamera": true,
         "isEnableRemap": true,
         "remapCameraId": "2",
-        "needRemapCameraId": "0",
+        "needRemapCameraId": "3",
         "limit_3rd_app_size": [
             "com.mt.mtxx.mtxx.sub.preview",
             "com.benqu.wuta.sub.preview",
@@ -440,6 +440,7 @@
         ],
         "app_disable_fb_activity": [
             "com.whatsapp.camera.CameraActivity",
+            "com.whatsapp.camera.ui.CameraActivity",
             "com.whatsapp.HomeActivity",
             "com.whatsapp.qrcode.contactqr.ContactQrActivity",
             "com.whatsapp.statuscomposer.ConsolidatedStatusComposerActivity",
