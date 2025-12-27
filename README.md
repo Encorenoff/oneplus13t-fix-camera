@@ -1,6 +1,6 @@
 # OnePlus 13T Camera Fix for OxygenOS
 
-A module to fix camera functionality and correct battery capacity for the OnePlus 13T after updating to or converting to OxygenOS.
+A module to fix camera functionality and correct battery capacity for the OnePlus 13T after converting to OxygenOS.
 
 <a href="https://www.buymeacoffee.com/kinginu" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 220px !important;" ></a>
 
