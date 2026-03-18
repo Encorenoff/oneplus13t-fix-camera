@@ -59,6 +59,8 @@
         "feature_syscamera_override_dataspace_enable": true,
         "feature_camerasdk_override_dataspace_enable": true,
         "feature_lazy_finish_fonfiguration_enable": true,
+        "horizFovCam1": 69.8,
+        "vertFovCam1": 55.1,
         "selectRemapOpenCamera": true,
         "isEnableRemap": true,
         "remapCameraId": "2",
@@ -596,6 +598,11 @@
             "2520x1080",
             "2376x1080",
             "2160x1080"
+        ]
+    },
+    "com.android.cts.verifier": {
+        "isSmallSizeQCFACameraId": [
+            "1"
         ]
     }
 }
