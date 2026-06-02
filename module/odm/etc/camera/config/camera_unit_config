@@ -6,9 +6,9 @@
   },
 
   "mode_type_list":{
-    "rear_wide":["video_mode", "photo_mode", "super_text_mode", "fastvideo_mode", "professional_mode", "movie_mode", "slowvideo_mode", "long_exposure_mode"],
-    "rear_main":["video_mode", "photo_mode", "super_text_mode", "fastvideo_mode", "professional_mode", "id_photo_mode", "slowvideo_mode", "movie_mode", "xpan_mode", "panorama_mode", "long_exposure_mode", "high_pixel_mode"],
-    "rear_tele":["video_mode", "professional_mode", "movie_mode", "slowvideo_mode", "photo_mode", "panorama_mode", "long_exposure_mode"],
+    "rear_wide":["video_mode", "photo_mode", "super_text_mode", "fastvideo_mode", "professional_mode", "master_video_mode", "slowvideo_mode", "long_exposure_mode"],
+    "rear_main":["video_mode", "photo_mode", "super_text_mode", "fastvideo_mode", "professional_mode", "id_photo_mode", "slowvideo_mode", "master_video_mode", "xpan_mode", "panorama_mode", "long_exposure_mode", "high_pixel_mode"],
+    "rear_tele":["video_mode", "professional_mode", "master_video_mode", "slowvideo_mode", "photo_mode", "panorama_mode", "long_exposure_mode"],
     "front_main":["video_mode", "photo_mode", "portrait_mode", "fastvideo_mode", "id_photo_mode", "night_mode", "panorama_mode"],
     "rear_sat":["video_mode", "photo_mode", "super_text_mode", "portrait_mode", "night_mode", "fastvideo_mode"],
     "rear_main_front_main":["multi_camera_mode"],
@@ -76,7 +76,7 @@
       }
     },
 
-    "movie_mode":{
+    "master_video_mode":{
       "stabilization":{
         "video_stabilization":"80a4"
       }
@@ -104,7 +104,7 @@
     "microscope_capture_mode":"8001",
     "microscope_video_mode":"800b",
     "macro_mode":"80A6",
-    "movie_mode":"80A3",
+    "master_video_mode":"80A3",
     "xpan_mode":"80AC",
     "long_exposure_mode":"80AA",
     "high_pixel_mode":"8001",
