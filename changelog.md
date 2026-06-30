@@ -1,3 +1,7 @@
+## CPH2723_16.0.8.301 (2026-06-30)
+
+* Update ODM blobs from COS: PKX110_16.0.8.300
+
 ## CPH2723_16.0.7.200 (2026-06-02)
 
 * Update ODM blobs from COS: PKX110_16.0.7.200
